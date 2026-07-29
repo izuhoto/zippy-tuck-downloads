@@ -1,3 +1,16 @@
+# ZippyTuck v0.0.3 2026-07-29
+
+ZippyTuck v0.0.3 is a pre-release.
+It fixes bulk `Esc` undo after combining move and resize in Global Quick Ops, restoring the window to the position and size from the start of the quick operation.
+
+## Improvements and Fixes
+
+- Fixed `Esc` after "move -> resize" or "resize -> move" in Global Quick Ops so both position and size return to the quick-operation start frame
+- Improved restore frame writes for size-changing undo by separating `AXPosition` and `AXSize` writes, adding a short landing gap, and retrying once when the target frame does not land
+- Preserved the quick undo baseline when the same quick chord is re-engaged during the 1-second linger, even if main-thread AX work delays the next begin event
+- Improved restore reliability for apps with `AXEnhancedUserInterface` enabled
+- Added `restore_probe` to diagnose environment-specific `Esc` restore failures on real Macs, and moved the existing AX probe under `tools/probes`
+
 # ZippyTuck v0.0.2 2026-07-29
 
 ZippyTuck v0.0.2 is a pre-release.
