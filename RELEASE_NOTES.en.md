@@ -1,3 +1,21 @@
+# ZippyTuck v1.0.0 2026-08-03
+
+ZippyTuck v1.0.0 is the first stable release.
+It refreshes modal operation around direct move sessions without Normal mode, and adds target switching, session undo / redo, window marks, grid mode, help, and the `zippytuck://` URL scheme.
+
+## Major Changes
+
+- Reworked modal operation so the startup shortcut enters move mode directly; `e` / `r` switch move and resize, a single `Enter` commits, and `Esc` restores every window touched in the session to its starting frame
+- Added an `Option+Tab` / `Option+Shift+Tab` target switcher so the active window can be changed during a session
+- Added session-local window-batch undo / redo with `u` / `Ctrl+r`
+- Added case-sensitive 52-slot window marks (`a-z` / `A-Z`) for updating a single window, saving and applying all-window layouts, visualization, deletion, and preview cycling
+- Added grid mode from `Ctrl+w`, with cell navigation, window assignment, auto assignment, multi-cell spans, boundary adjustment, shape bookmarks, and shape preview / restore
+- Added a menu-bar Data menu for running and deleting marks and grid shapes, plus mark export / import and clear-all operations
+- Added a `?` / menu Help overlay with pages for overview, move, resize, grid, quick operations, and URL scheme reference with copy buttons
+- Added the `zippytuck://` URL scheme for applying marks, applying grid shapes, starting sessions, opening help, and opening Settings
+- Improved mode HUD behavior so it stays visible during sessions and can dim to a configurable opacity; added a setting to enable or skip confirmations before applying all-window layouts
+- Revised grid defaults and persistence: default grid is now `2x2`, valid dimensions are `1...100`, and in-session division changes no longer overwrite Settings defaults
+
 # ZippyTuck v0.0.3 2026-07-29
 
 ZippyTuck v0.0.3 is a pre-release.
