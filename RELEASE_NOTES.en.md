@@ -1,3 +1,16 @@
+# ZippyTuck v1.0.1 2026-08-10
+
+ZippyTuck v1.0.1 is a maintenance release.
+It fixes gradually worsening cursor responsiveness during continuous Global Quick Ops, and improves HUD click handling for the pending HUD and completion toasts after quick operations.
+
+## Improvements and Fixes
+
+- Fixed an issue where Ctrl+Cmd Global Quick Ops could rebuild hot keys and the Escape event tap unnecessarily during continuous move / resize, gradually making cursor interaction slower
+- Explicitly disabled and released the Escape event tap when uninstalling it, preventing leftover taps from degrading system-wide cursor responsiveness
+- Made the pending HUD after releasing quick-operation modifiers clickable, so the quick session can be committed without waiting for the linger timeout
+- Made quick-operation and modal-session completion toasts dismissible by click, and skips the extra completion toast when a click already committed the quick session
+- Kept move / resize / grid mode HUDs and modal-session warnings click-through, while exposing only clickable HUDs as button-like controls
+
 # ZippyTuck v1.0.0 2026-08-03
 
 ZippyTuck v1.0.0 is the first stable release.
