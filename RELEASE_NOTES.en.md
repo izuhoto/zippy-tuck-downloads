@@ -1,3 +1,13 @@
+# ZippyTuck v1.0.2 2026-08-20
+
+ZippyTuck v1.0.2 adds display-configuration layouts.
+It can restore saved all-window positions after displays are connected, disconnected, or rearranged, and adds per-operation disabling for Global Quick Ops.
+
+## Major Changes
+
+- Added a Display Layout menu for saving, restoring, and deleting the positions and sizes of all operable windows for the current display setup
+- Added per-operation enable / disable controls for Global Quick Ops in Settings, so unused mouse chords and corner shortcuts can stop registering while keeping their shortcut assignments
+
 # ZippyTuck v1.0.1 2026-08-10
 
 ZippyTuck v1.0.1 is a maintenance release.
