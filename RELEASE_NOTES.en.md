@@ -1,3 +1,14 @@
+# ZippyTuck v1.0.3 2026-08-25
+
+ZippyTuck v1.0.3 makes display-configuration layouts easier to carry forward.
+It adds export / import for saved layouts and automatic restore when apps launch, and improves Global Quick Ops target resolution in apps such as Excel.
+
+## Major Changes
+
+- Added Display Layout export / import from the menu, using JSON files for saved display-configuration layouts
+- Added a Settings option to restore layout when apps launch, restoring only that app's operable windows from the layout saved for the current display setup
+- Fixed Global Quick Ops target lookup from Excel cell grids and sheet tabs, so continuous move, continuous resize, direction-snap move, and direction-snap resize can start from those areas
+
 # ZippyTuck v1.0.2 2026-08-20
 
 ZippyTuck v1.0.2 adds display-configuration layouts.
