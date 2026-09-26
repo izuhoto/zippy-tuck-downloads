@@ -1,3 +1,13 @@
+# ZippyTuck v1.0.4 2026-09-26
+
+ZippyTuck v1.0.4 makes regular mouse-based window adjustment easier when windows sit side by side.
+During continuous move or continuous resize, hold `A` to keep multiple windows lined up while changing their position or size.
+
+## Major Changes
+
+- Added the ability to hold `A` during continuous move or continuous resize so adjacent windows move or resize together
+- When starting near an edge or corner, adjacent windows resize while keeping their edges together; when starting from the middle, adjacent windows move along with the window you are operating
+
 # ZippyTuck v1.0.3 2026-08-25
 
 ZippyTuck v1.0.3 makes display-configuration layouts easier to carry forward.
