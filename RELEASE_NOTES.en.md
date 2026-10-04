@@ -1,3 +1,16 @@
+# ZippyTuck v1.0.5 2026-10-04
+
+ZippyTuck v1.0.5 improves choosing among multiple windows of the same app under the same mark, and makes it easier to review and delete marks and display layouts in Settings.
+You can also align a window to its saved position from Settings.
+
+## Major Changes
+
+- When the same mark has multiple saved windows for the same app, you can switch candidates right after applying to pick another saved window, apply without moving focus, or delete just that saved entry
+- Improved mark visualization so the entry count and window title are easier to see
+- Split Settings into General, Marks, and Display Layout tabs for browsing and deleting saved entries
+- Added the ability to align a window to its saved position and size from the Marks and Display Layout lists in Settings
+- Clarified candidate-switching steps in Help and fixed key labels that overflowed their columns
+
 # ZippyTuck v1.0.4 2026-09-26
 
 ZippyTuck v1.0.4 makes regular mouse-based window adjustment easier when windows sit side by side.
