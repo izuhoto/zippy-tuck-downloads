@@ -1,3 +1,14 @@
+# ZippyTuck v1.0.6 2026-10-05
+
+ZippyTuck v1.0.6 fixes cases where the Settings Marks and Display Layout tabs could make the window taller than the screen and prevent resizing it vertically.
+You can also delete a list entry from the right-click menu.
+
+## Improvements and Fixes
+
+- Fixed an issue where the Marks and Display Layout tabs in Settings could grow taller than the screen when the list was long, so the window could not be shortened vertically and the buttons at the bottom were hard to reach
+- Improved cases where resizing the Settings window on those tabs could stretch it too tall
+- Added Delete to the right-click menu on Marks and Display Layout list entries, with a confirmation before deletion
+
 # ZippyTuck v1.0.5 2026-10-04
 
 ZippyTuck v1.0.5 improves choosing among multiple windows of the same app under the same mark, and makes it easier to review and delete marks and display layouts in Settings.
