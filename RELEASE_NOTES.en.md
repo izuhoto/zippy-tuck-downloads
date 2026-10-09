@@ -1,3 +1,14 @@
+# ZippyTuck v1.0.7 2026-10-09
+
+ZippyTuck v1.0.7 makes it easier to control which saved window is used when the same app has several saved positions.
+In the Marks and Display Layout lists in Settings, you can move a row up or down to change the order.
+
+## Major Changes
+
+- Added Move Up and Move Down in the Marks and Display Layout tabs in Settings so you can reorder the selected row
+- When the same app has several saved windows, ZippyTuck prefers a matching window title (and similar details); only when that does not decide does it use the list order from the top. You can change that order with Move Up / Move Down
+- Updated the on-screen help for apps with several saved windows so it explains this matching and reordering
+
 # ZippyTuck v1.0.6 2026-10-05
 
 ZippyTuck v1.0.6 fixes cases where the Settings Marks and Display Layout tabs could make the window taller than the screen and prevent resizing it vertically.
